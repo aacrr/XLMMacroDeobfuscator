@@ -39,7 +39,7 @@ except:
 from XLMMacroDeobfuscator.xls_wrapper_2 import XLSWrapper2
 from XLMMacroDeobfuscator.xlsb_wrapper import XLSBWrapper
 from XLMMacroDeobfuscator.boundsheet import *
-from distutils.util import strtobool
+from setuptools._distutils.util import strtobool
 
 
 class EvalStatus(Enum):
